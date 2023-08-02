@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2163.012, g: 2270.1838, b: 3303.6333, a: 1}
+  m_IndirectSpecularColor: {r: 2163.012, g: 2270.1838, b: 3303.5396, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -139,17 +139,17 @@ PrefabInstance:
     - target: {fileID: 7880951066274158845, guid: 9b9f6390b3dee44e4ba03d5f3f76dacb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -43
+      value: -46.51
       objectReference: {fileID: 0}
     - target: {fileID: 7880951066274158845, guid: 9b9f6390b3dee44e4ba03d5f3f76dacb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 7880951066274158845, guid: 9b9f6390b3dee44e4ba03d5f3f76dacb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11
+      value: 11.7
       objectReference: {fileID: 0}
     - target: {fileID: 7880951066274158845, guid: 9b9f6390b3dee44e4ba03d5f3f76dacb,
         type: 3}
@@ -2317,6 +2317,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Muscle Car Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4810636197707150273, guid: 65c1bf57fda58484d88928c6d67d7534,
+        type: 3}
+      propertyPath: wheelForceMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810636197707150273, guid: 65c1bf57fda58484d88928c6d67d7534,
+        type: 3}
+      propertyPath: suspensionForceMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2819,17 +2829,17 @@ PrefabInstance:
     - target: {fileID: 7841096914571986436, guid: 1c994073ac1d5445695ce53ec5195532,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -42
+      value: -45.46
       objectReference: {fileID: 0}
     - target: {fileID: 7841096914571986436, guid: 1c994073ac1d5445695ce53ec5195532,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7841096914571986436, guid: 1c994073ac1d5445695ce53ec5195532,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 11.73
       objectReference: {fileID: 0}
     - target: {fileID: 7841096914571986436, guid: 1c994073ac1d5445695ce53ec5195532,
         type: 3}
@@ -3140,6 +3150,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 145233592795163507, guid: b21adb155ff112d499bb220380a815e3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145233592795193377, guid: b21adb155ff112d499bb220380a815e3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 145233592795240881, guid: b21adb155ff112d499bb220380a815e3,
+        type: 3}
+      propertyPath: wheelForceMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 145233592795240881, guid: b21adb155ff112d499bb220380a815e3,
+        type: 3}
+      propertyPath: suspensionForceMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 145233592795246141, guid: b21adb155ff112d499bb220380a815e3,
         type: 3}
       propertyPath: yawAxis
